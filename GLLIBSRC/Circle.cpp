@@ -1,8 +1,6 @@
 #include <math.h>
-
 #include "Circle.h"
-
-
+//
 #define c_MXNFAI 64
 #define DEFAUT_NUMFAI   12
 static float cosfai[c_MXNFAI], sinfai[c_MXNFAI];
