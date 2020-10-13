@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="VisAtom2017">
+    <file>images/solidsphere.png</file>
+    <file>images/adjustsize.png</file>
+    <file>images/fit-page-32.png</file>
+    <file>images/SCUlogo.png</file>
+    <file>images/cursor-sizeh.png</file>
+    <file>images/cursor-sizev.png</file>
+    <file>images/cursor-sizeb.png</file>
+    <file>images/next.png</file>
+    <file>images/prev.png</file>
+    <file>images/colormap.png</file>
+    <file>images/copy.png</file>
+    <file>images/scenestyle2.png</file>
+    <file>images/scenestyle3.png</file>
+    <file>images/zoomin.png</file>
+    <file>images/scenestyle1.png</file>
+    <file>images/SCUlogo1.png</file>
+    <file>images/About1.png</file>
+    <file>VisAtoms21.ico</file>
+    <file>images/rotationx.png</file>
+    <file>images/adjustsize.png</file>
+    <file>images/rotationy.png</file>
+    <file>images/rotationz.png</file>
+    <file>images/copy.png</file>
+    <file>images/open.png</file>
+  </qresource>
+</RCC>

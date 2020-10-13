@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VisAtom2013_1" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAECAAKAgAAAAAgBAQAAAkAAAAgAAAAAQ=</HashCode>
+      <FileName>visatom2013_1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisAtomWidget" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGA5IAAAODAACACKCyAADICgAAQBAI0BEAAgAIEAIQ=</HashCode>
+      <FileName>sor\VisAtomwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Light" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAAQgCAABBAAhAAAACAAAEAEAAABAEAAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sMF0X4pikgBQRcjg8QCSD3hrSALkAQj4UaAwQghsfgI=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sphere" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BICAAgAAIAACBAAACAQAAAAAAAAAAAIAEBAAAAAKAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Sphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spheres" Collapsed="true">
+    <Position X="19.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAMACA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Spheres.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAACAAggACAIAAAgAACAAIAACgAABkKQEIAQI=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Points" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhgCAAIAAAAAACAAAAACgEABgKQEJAQA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Points.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlcObj" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cEBAAARwgIAQAgAAAAAAAAAAAAAAAAAAACAEAQAIAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\GLCOBJ.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atoms21" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMgAXkxIQIABAyKIBpJCBASEAAwkAgFSGkEBCAGMc5E=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\VISATOMSRC\Atoms21.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sample" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xI2yTaIQKjiQwiEm2KUChlTOcvqyOm+SBv97FQdobJw=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\VISATOMSRC\Sample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubSample" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oUyIwSAQQECMwiIAEFQgBRAEBhUEAEGCAgBDaGtAmQA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\VISATOMSRC\SubSample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Style" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAiQAQBAAAAAAAAAAAAAAACABIBAAIAAAAAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\STYLE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arrow" Collapsed="true">
+    <Position X="26.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAAAAAABgAAAQCAAAAACAAAAAAAAAgggAQIAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Arrow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Circle" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAAgABAAAARAAAAAAAAgAAAIAEAABAAAKAAI=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\CIRCLE.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cone" Collapsed="true">
+    <Position X="24.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAABAAAAAwAAAAAAAAAAAQAAAAAAAIAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Cone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cubic" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAA0AAAAACAAEACAAAAKAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\CUBIC.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cylinder" Collapsed="true">
+    <Position X="24.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JACAAAAAAAAABAAACAAAAAAACAAAAAIAAAQAAAAKAAA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Cylinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Line" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEABAAACAAggOAAIAAAICgCQAIAACAgAAEaAMJAQg=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\Line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolidCircle" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAAAABAAAAAAAAAAAAAAAAAIAkAAAAAAKgAI=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\SolidCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xyPoint" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAABAgAAAAABgCgAZAAgAAACgAAAICgAABgKAEIEwI=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\XyPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xyPoints" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIIAABgCwAIAAAAAACgAAAACiEQBgKAEIAQA=</HashCode>
+      <FileName>d:\ESpace\HouQing\Tools\QTVIS\GLLIBINC\XyPoints.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_VisAtom2013_1Class" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAAAECQAAAAAAAAIAACAQAIAgAgAAAAIAAIAA=</HashCode>
+      <FileName>GeneratedFiles\ui_visatom2013_1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="qCleanupResources_visatom2013_1__dest_class__" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\qrc_visatom2013_1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::VisAtom2013_1Class" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_visatom2013_1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
