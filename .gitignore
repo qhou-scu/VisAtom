@@ -10,3 +10,4 @@ GeneratedFiles/
 *~
 *.dat
 *.bak
+.gitignore
