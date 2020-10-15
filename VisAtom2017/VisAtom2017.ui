@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1227</width>
-    <height>762</height>
+    <height>832</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -110,7 +110,7 @@
      <x>0</x>
      <y>0</y>
      <width>1227</width>
-     <height>23</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_File">
@@ -234,8 +234,8 @@
    </property>
    <property name="minimumSize">
     <size>
-     <width>314</width>
-     <height>667</height>
+     <width>362</width>
+     <height>701</height>
     </size>
    </property>
    <property name="maximumSize">
@@ -2507,8 +2507,8 @@
    </property>
    <property name="minimumSize">
     <size>
-     <width>282</width>
-     <height>559</height>
+     <width>343</width>
+     <height>635</height>
     </size>
    </property>
    <property name="maximumSize">
@@ -2583,7 +2583,7 @@
                <string>Dot</string>
               </property>
               <property name="checked">
-               <bool>true</bool>
+               <bool>false</bool>
               </property>
              </widget>
             </item>
@@ -2591,6 +2591,9 @@
              <widget class="QRadioButton" name="sphereRadioButton">
               <property name="text">
                <string>Solid sphere</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
               </property>
              </widget>
             </item>

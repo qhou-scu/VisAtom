@@ -84,7 +84,7 @@ VisAtomVisualizingPolicy::VisAtomVisualizingPolicy()
 	   
        m_geomStyle = GEOM_STYLE_ATOM | GEOM_STYLE_3D; //|GEOM_STYLE_PROJECT;
        //display property of atoms in the subsample
-	   m_shapeStyle= SHAPE_STYLE_DOT;
+	   m_shapeStyle= SHAPE_STYLE_SOLID;
 	   m_radius    = 0.5f;
 	   m_unifyradiu = 1;
 

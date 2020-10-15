@@ -5,10 +5,10 @@
 int Sphere::fai=0;
 int Sphere::theta=0;
 
-#define c_MXNFAI 64
-#define c_MXNTHETA 64
-#define DEFAUT_NUMFAI   12
-#define DEFAUT_NUMTHETA 12
+#define c_MXNFAI 128
+#define c_MXNTHETA 128
+#define DEFAUT_NUMFAI   32
+#define DEFAUT_NUMTHETA 32
 
 static float cosfai[c_MXNFAI], sinfai[c_MXNFAI];
 static float costheta[c_MXNTHETA],sintheta[c_MXNTHETA]; 
