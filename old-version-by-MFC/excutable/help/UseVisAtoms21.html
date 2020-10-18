@@ -1,0 +1,238 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Use VisAtoms 2</TITLE>
+<META NAME="Template" CONTENT="E:\Microsoft Office\Office\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<B><FONT SIZE=5><P ALIGN="CENTER">Use VisAtoms 2.1</P>
+</B></FONT><I><FONT SIZE=2><P ALIGN="CENTER">Qing Hou</P>
+</I><P ALIGN="CENTER">Université Libre de Bruxelles, Belgium</P>
+<P ALIGN="CENTER">And</P>
+<P ALIGN="CENTER">Sichuan University, China</P>
+</FONT><B><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P><A NAME="Overview"></P></B></FONT>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=7 WIDTH=623>
+<TR><TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><B><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2>&nbsp;</P>
+<P><A NAME="Contents"></FONT><FONT SIZE=2>CONTENTS</A> </P>
+</B></FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Overview"><FONT SIZE=2>Overview</FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Inputfile"><FONT SIZE=2>Input Files</FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Loaddata"><FONT SIZE=2>Load the data</FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Changebackground"><FONT SIZE=2>Change Background</FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Normalization"><FONT SIZE=2>Normalization</FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Changeposition"><FONT SIZE=2>Change position</FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Changedrawingstyle"><FONT SIZE=2>Change drawing style</FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Changesize"><FONT SIZE=2>Change sizes</FONT></A> </P>
+<P>&nbsp;</TD>
+<TD WIDTH="22%" VALIGN="TOP">
+<B><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P>
+</B><P>&nbsp;</A></FONT><A HREF="#Savegraphics"><FONT SIZE=2>Save graphics</FONT></A> </P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Pickatom"><FONT SIZE=2>Pick atoms </FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Makecluster"><FONT SIZE=2>Make cluster </FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></FONT><A HREF="#Saveconfig"><FONT SIZE=2>Save configuration </FONT></A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P>&nbsp;</P>
+<P></FONT><A HREF="VisAtoms21.zip">Download</A></P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P>&nbsp;</P>
+<P>&nbsp;</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</FONT></TD>
+<TD WIDTH="53%" VALIGN="TOP">
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image7.gif" WIDTH=313 HEIGHT=246></FONT></TD>
+</TR>
+</TABLE>
+
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><HR SIZE=0></P>
+
+<UL>
+</FONT><FONT SIZE=2><LI>OVERVIEW</LI></UL>
+<DIR>
+<DIR>
+
+<P ALIGN="JUSTIFY">VisAtoms is a tool for the visualization of MD calculations. It provides 3D view of atomic structures of materials. By VisAtoms, one can rotate, translate, zoom and clip the scene. You can also edit the samples by deleting, moving, merging other samples. The graphics could be saved into bitmap files or AVI file for animations. This provides a convenient way to include the visualized MD results into presentations prepared by, for example, Word or PowerPoint. Here I present an introduction on how to use this software in a step by step way. The introduction is not complete. VisAtoms is simple to use. Users can try other functions on menus that are not mentioned here. </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P ALIGN="JUSTIFY"></FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Inputfile"></FONT><FONT SIZE=2>INPUT FILES</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P ALIGN="JUSTIFY"></A></FONT><FONT SIZE=2>A input file should be a text file. The data are arranged in columns. Each column represents coordinates of atoms, type of atom, color, radius, velocity or force. Not all of these quantities are required. Only coordinates for atoms are must-needed. Velocity and force are needed in your input file only when you want visualize the velocity field and the force field. Color and radius of atoms could be used to visualize other physical quantities, for example, the temperature field or potentials of atoms. If no color or radius information input, VisAtoms uses default values for them. In VisAtoms, RGB mode is used for color. Atoms could be given types. For example, in simulation the deposition of clusters on surface, you could set atoms of substrate as type 1, and atoms of clusters as type 2 etc. </P>
+<P>One can add any comments or space lines on the head of input files. Each comment line should have ‘!’ as the first letter. Following is an example of data file. </P><DIR>
+<DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</FONT><FONT FACE="Arial" SIZE=2>!*** This is an example of data file for VisAtoms.</P>
+<P>! The first column is the type of atoms. 2-4 columns</P>
+<P>! are position of atoms. The columns are seperated by</P>
+<P>! space or comma. This is sample is a cluster</P>
+<P>! deposition on a surface. </P>
+<P>&nbsp;</P>
+<P>!Type, x y z</P>
+<P>1, -1.676400e+000, -1.686000e+000, -1.086800e+000</P>
+<P>1, -1.690600e+000, -1.446700e+000, -7.509200e-001</P>
+<P>1, -1.787600e+000, -1.623400e+000, -7.458300e-001</P>
+<P>1, -1.786800e+000, -1.729800e+000, -9.213300e-001</P>
+<P>..., .........................., .........................., ...........................</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P ALIGN="JUSTIFY"><A NAME="Loaddata"></FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT SIZE=2><LI>LOAD DATA</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>Click </FONT><FONT SIZE=2 COLOR="#008000">File-Open</FONT><FONT SIZE=2> menu, you can load an input file. The following dialog box will appear: </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image1.gif" WIDTH=388 HEIGHT=248></P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P>
+</FONT><FONT SIZE=2><P>Firstly, you should click the check boxes to choice the quantities that you want to input. Then, select a column on the left list box and select a quantity on the right list box. Then click " &gt;&gt;" button to associate the data and the quantity. </P>
+<P>One can check </FONT><FONT SIZE=2 COLOR="#008000">Open continuously </FONT><FONT SIZE=2>in the dialog box. You can open files and render the scene without stopping if your files have number as their extensions. Click </FONT><FONT SIZE=2 COLOR="#008000">File-Next</FONT><FONT SIZE=2> menu or </FONT><FONT SIZE=2 COLOR="#008000">File-Previous</FONT><FONT SIZE=2> to invoke this process. </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Changebackground"></FONT><FONT SIZE=2>CHANGE BAKGROUND</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>Click </FONT><FONT SIZE=2 COLOR="#008000">Option-Background </FONT><FONT SIZE=2>menu. Change the components of R, G, B. </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P ALIGN="JUSTIFY"><A NAME="Normalization"></FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT SIZE=2><LI>NORMALIZE</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>The default size of box is assumed to be unit, i.e., the coordinate range is (–0.5, 0.5). Thus, after loading the data, you may find the graphics created is too large(if you use A or lattice unit for the coordinates of atoms) or too small (if you use cm for the coordinates of atoms). You can fit graphics into the viewport by click </FONT><FONT SIZE=2 COLOR="#008000">Edit-Normalization</FONT><FONT SIZE=2> menu: </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image8.gif" WIDTH=426 HEIGHT=258></P></DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=2><P>Then the graphics will be fit into the window:</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image9.gif" WIDTH=426 HEIGHT=278></P></DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P>
+<P>&nbsp;</P><DIR>
+
+<P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Changeposition"></FONT><FONT SIZE=2>CHANGE POSITION</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>Click </FONT><FONT SIZE=2 COLOR="#008000">Action-Rotation-</FONT><FONT SIZE=2> menus and </FONT><FONT SIZE=2 COLOR="#008000">Action-Scroll objec </FONT><FONT SIZE=2>menus or corresponding toolbar to set the object at a suitable position to have a better view point:</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image10.gif" WIDTH=437 HEIGHT=273></P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Changedrawingstyle"></FONT><FONT SIZE=2>CHANGE DRAWING STYLE</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>The atoms could be drawn in dots, circles, wire spheres or solid spheres. To change the drawing style by clicking </FONT><FONT SIZE=2 COLOR="#008000">Edit-Drawing style</FONT><FONT SIZE=2> menu, The following dialog box popup.</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image4.gif" WIDTH=452 HEIGHT=256></P></DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=2><P>You can draw an atom by the properties (color and style) of its kind if you check </FONT><FONT SIZE=2 COLOR="#008000">Draw by property of subsample</FONT><FONT SIZE=2>. A subsample here is a group of atoms of the same kind. In this way, atoms of different kind could be drawn in different style. You can also draw atoms by their own properties if you </FONT><FONT SIZE=2 COLOR="#008000">Draw by property of each atom. </FONT><FONT SIZE=2>In this case, all the atoms have the same style (dot is the default style) but could have different color or radii even for atoms of the same kind if input color or radius for each atom have input (see also INPUT FILE).</P>
+<P>Following is the results of </FONT><FONT SIZE=2 COLOR="#008000">Draw by property of subsample</FONT><FONT SIZE=2>. The atoms of type 1 are drawn in circle, type 2 and type 3 drawn in solid sphere. </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image11.gif" WIDTH=540 HEIGHT=378></P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Changesize"></A></FONT><FONT SIZE=2>CHANGE SIZE</LI></UL>
+<DIR>
+<DIR>
+
+<P>The size of the atoms are too small in this figure, thus you can make them bigger (or smaller) by click </FONT><FONT SIZE=2 COLOR="#008000">Action-Zoom-Make sphere larger</FONT><FONT SIZE=2> (</FONT><FONT SIZE=2 COLOR="#008000">Action-Zoom-Make sphere smaller)</FONT><FONT SIZE=2> or tool bar:</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image12.gif" WIDTH=540 HEIGHT=378></P></DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=2><P>You can also change the length of vectors if you have display velocity or force field of atoms.</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Savegraphics"></FONT><FONT SIZE=2>SAVE GRAPHICS</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>Click </FONT><FONT SIZE=2 COLOR="#008000">File-Save image</FONT><FONT SIZE=2> menu to save the current graphics.</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Pickatom"></FONT><FONT SIZE=2>PICK ATOM(S)</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>You can select an atom or a group of atoms in different picking mode, by clicking an atom. Click an atom twice, you can move the atom or the group atoms of its kind around by mouse. The picked atom(s) could be hidden, deleted, copy etc by click </FONT><FONT SIZE=2 COLOR="#008000">Edit-... </FONT><FONT SIZE=2>menu. </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><LI><A NAME="Makecluster"></FONT><FONT SIZE=2>MAKE CLUSTER</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P></A></FONT><FONT SIZE=2>Another way to modify the configurations of a sample is to make subsample. Click </FONT><FONT SIZE=2 COLOR="#008000">Edit-Make cluster </FONT><FONT SIZE=2>the following dialog box popup:</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image13.gif" WIDTH=365 HEIGHT=276></P></DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=2><P>Input the equation(s) for the boundary that define a cluster. As an example above, I make a cylinder. Following is the results. Some atoms originally in substrate and cluster 1 and 2 form a new cluster. </P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image14.gif" WIDTH=531 HEIGHT=388></P></DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=2><P>After hide other cluster, the new cluster is something like following:</P>
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P><IMG SRC="Image15.gif" WIDTH=531 HEIGHT=388></P></DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P><DIR>
+
+<P ALIGN="JUSTIFY">&nbsp;</FONT><A HREF="#Contents"><FONT FACE="&#23435;&#20307;" LANG="ZH-CN">&nbsp;</FONT>Back to contents</A></P></DIR>
+</DIR>
+
+
+<UL>
+<FONT SIZE=2><LI>SAVE <A NAME="Saveconfig"></A>CONFIGURATION</LI></UL>
+<DIR>
+<DIR>
+
+<P>Click </FONT><FONT SIZE=2 COLOR="#008000">File-Save configuration</FONT><FONT SIZE=2> menu to save the coordinates of atoms that have been modified. </P></DIR>
+</DIR>
+
+
+<UL>
+<LI><A NAME="Contactme">CONTACT AUTHOR</LI></UL>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="&#23435;&#20307;" LANG="ZH-CN"><P></A></FONT><A HREF="mailto:qhou@263.net">qhou@263.net</A> </P>
+<P>Comments or suggestions and error reports are welcome.</P>
+<FONT FACE="&#23435;&#20307;" LANG="ZH-CN" SIZE=2><P>&nbsp;</P></DIR>
+</DIR>
+</FONT></BODY>
+</HTML>

@@ -1,0 +1,12 @@
+You can view the sample by slices if you enable clipplane pairs in Option of Scene 
+The screen could be refreshed after each action. But, if you have checked 'Update screen by require'. The screen redraw only after you press refresh button.
+You can have perspective view by change the option for Volume of Scene  
+You can save the graphics as bitmap and edit by other image tools(Paint, fro example)
+You can make movie by click menu Tool-Makemovie
+You can open data files contineously if the extension of the filenames are number: 001, 002...  and if you have check the Open contineously option in File format dialogbox. In this way you can make movie consists of MD configurations at different times
+You can visualize, for example, the temperature field by assigning different colors to atoms acording to thire kinetic energy  in data file
+You can use radiu to represent some kind of phyiscal quantity. 
+You can display one kind of atoms in velocity but other kinds of atoms in spheres by selecting 'Drawing style' as 'Draw by subsample property'
+You can view the object in four different viewpoints by split the window into four 
+You can rotate or translate the object in two coordinate system by change the option in Option-Scene. One moves with the object, another one is fixed    
+You can merge samples by copy and paste
