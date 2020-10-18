@@ -3,11 +3,8 @@ x86/
 Win32/
 .vs/
 GeneratedFiles/
-*.a
-*.exe
 *.o
 *.obj
 *~
-*.dat
 *.bak
 .gitignore
