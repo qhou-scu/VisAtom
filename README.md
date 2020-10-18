@@ -10,7 +10,7 @@ Build:
 open the solution VisAtom2017/VisAtom2017.sln in VS and run build. The excutable, VisAtom2017.exe, will be generated in VisAtom2017\x64\Release 
 
 Run:
-To run outof VS envirenment, a few QT dynamic libraries (see in Dependence directory)  are needed. Copy the excutable and the dependence DLLs to the working directory.
+To run outof VS envirenment, a few QT dynamic libraries (see in excutable and dependences directory)  are needed. Copy the excutable and the dependence DLLs to the working directory.
 
 
 Format of the configurations:
